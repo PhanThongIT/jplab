@@ -304,7 +304,7 @@ $(document).ready(function(){
 	++++++++++++++++++++++++++++++++++++++*/
 	
 	
-	$('div#pub-grid').mixitup({
+	$('div.pub-grid').mixitup({
 		layoutMode: 'list',
 		easing : 'snap',
 		transitionSpeed :600,
@@ -328,7 +328,7 @@ $(document).ready(function(){
 
 	$("[name=cd-dropdown]").on("change",function(){
 		var item = this.value;		
-		$('div#pub-grid').mixitup('filter',item);
+		$('div.pub-grid').mixitup('filter',item);
 	});
 
 	
